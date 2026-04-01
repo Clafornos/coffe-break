@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Break</title>
+    <script src="https://kit.fontawesome.com/59d884eddf.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">    <style>
+        
+        *{
+            box-sizing: border-box;
+           margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:rgb(247, 247, 247) ;
+            font-family: 'Inter', sans-serif;
+            
+        }
+        main{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            width: 100%;
+            padding: 60px 0;
+        }
+        .coffe-section{
+            color: rgb(248, 248, 248);
+            width: 90vw;
+            max-width: 1280px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.55)),
+            url('https://images.unsplash.com/photo-1442512595331-e89e73853f31');     
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;   
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+            transition: 0.3s ease;
+
+        }
+        .coffe-section:hover{
+            box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+        }
+
+        .coffe-section h1{
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        .coffe-section p{
+            font-size: 1.2rem;
+            text-align: center;
+            padding-left:5% ;
+            padding-right: 5%;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            max-width: 900px;
+        }
+        button.btn-maps{
+            font-size: 1.1rem;
+            padding: 12px 16px;
+            border-radius: 30px;
+            background-color: rgb(80, 48, 23);
+            border: none;
+            color:white;
+            font-weight: 500;
+            transition: 0.3s ease;
+
+        }
+        button.btn-maps:hover{
+            transform: translateY(-3px) ;
+            background-color: rgb(58, 36, 18);
+        }
+
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="coffe-section">
+            <h1>Coffe Break</h1>
+            <p> Un espacio acogedor donde el aroma del café recién hecho se combina con un ambiente moderno y relajado. Nuestra cafetería nace con la idea de ofrecer un lugar perfecto para disfrutar de una buena conversación, trabajar o simplemente desconectar.</p>
+            <button class="btn-maps"> 📌 Ver ubicación en google maps  </button>
+        </section>
+    </main>
+</body>
+</html>
